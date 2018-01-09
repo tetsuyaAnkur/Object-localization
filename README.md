@@ -4,6 +4,11 @@
 
 # Preprocess
 
+For cleaning the dataset, we found out the maximum height and width of images
+in the dataset, and adjusted each images accordingly by padding the extra pixels
+with zeros. This was done beforehand, as it would not require the bounding boxes
+to be changed later.
+
 For creating the training and testing dataset I had to extract useful information
 from the xml file. For this I used Element-Tree, which is a very famous xml parser.
 Since I had to do object localization (creating bounding  boxes), I used Element-Tree
