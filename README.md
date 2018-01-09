@@ -4,7 +4,7 @@
 
 # Preprocess
 
-For cleaning the dataset, we found out the maximum height and width of images
+For cleaning the dataset, I found out the maximum height and width of images
 in the dataset, and adjusted each images accordingly by padding the extra pixels
 with zeros. This was done beforehand, as it would not require the bounding boxes
 to be changed later.
