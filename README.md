@@ -32,3 +32,4 @@ in the output dense layer.
 # Results
 
 I was able to get the accuracy of 92% (according to mse loss function) for the bounding box.
+Some of the results are depicted by the images which I have uploaded.
